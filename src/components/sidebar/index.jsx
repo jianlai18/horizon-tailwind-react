@@ -14,7 +14,7 @@ const Sidebar = ({ open, onClose }) => {
       }`}
     >
       <span
-        className="absolute top-4 right-4 block cursor-pointer xl:hidden"
+        className="absolute top-4 right-4 block cursor-pointer"
         onClick={onClose}
       >
         <HiX />
@@ -33,6 +33,8 @@ const Sidebar = ({ open, onClose }) => {
       </ul>
 
       {/* Free Horizon Card */}
+
+      {/* To remove */}
       <div className="flex justify-center">
         <SidebarCard />
       </div>

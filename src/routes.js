@@ -18,6 +18,7 @@ import {
   MdPerson,
   MdLock,
 } from "react-icons/md";
+import {FaProductHunt} from "react-icons/fa";
 
 const routes = [
   {
@@ -61,6 +62,13 @@ const routes = [
     layout: "/rtl",
     path: "rtl",
     icon: <MdHome className="h-6 w-6" />,
+    component: <RTLDefault />,
+  },
+  {
+    name: "Admin Products",
+    layout: "/admin",
+    path: "products",
+    icon: <FaProductHunt className="h-6 w-6" />,
     component: <RTLDefault />,
   },
 ];

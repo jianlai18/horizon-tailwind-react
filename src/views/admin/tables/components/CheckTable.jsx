@@ -46,7 +46,7 @@ const CheckTable = (props) => {
         <CardMenu />
       </header>
 
-      <div className="mt-8 overflow-x-scroll xl:overflow-x-hidden">
+      <div className="mt-8 overflow-auto">
         <table
           {...getTableProps()}
           className="w-full"
